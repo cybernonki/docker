@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     vb.cpus = 2
   end
 
-  # config.vm.synced_folder "C:/develop2/hmnmove/hmnmove/hmnmove", "/usr/local/html"
+  # config.vm.synced_folder "C:/develop2/test", "/usr/local/html"
   
   # dockerとdocker-compose(v2.6.0)のインストール
   $get_compose = <<-'EOF'
